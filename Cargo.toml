@@ -2,6 +2,10 @@
 name = "another_pipe_macro"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+description = "Adds a macro for composing functions"
+repository = "https://github.com/thetos7/pipe_macro_rs"
+keywords = ["functional_programming", "pipeline"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
