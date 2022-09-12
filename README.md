@@ -3,7 +3,7 @@ This crate provides a `pipe` macro to easily compose functions together
 with a new syntax preventing nested calls which are hard to read and understand.
 
 example usage:
-```rs
+```
 use another_pipe_macro::pipe;
 
 let res = pipe!( "32" => str::parse::<i32> => Result::unwrap);
